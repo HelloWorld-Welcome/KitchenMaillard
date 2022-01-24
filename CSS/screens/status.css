@@ -1,0 +1,28 @@
+.status {
+  padding-top: 100px;
+}
+.status-showup__status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+  margin: 10px;
+  border: 1px solid #3c434b;
+  border-radius: 10px;
+}
+.status-showup__status:nth-child(4) {
+  padding-top: 25px;
+}
+.status-showup__main {
+  padding-top: 15px;
+}
+.status-showup__sub {
+  padding-top: 15px;
+}
+.status-showup__title {
+  font-weight: 800;
+  font-size: 40px;
+}
+.status-showup__title--smaller {
+  font-size: 27px;
+}

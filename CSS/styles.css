@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import "reset.css";
+
+/*Components*/
+@import "components/nev-bar.css";
+
+/*Screens*/
+@import "screens/status.css";
+@import "screens/menu.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #3c434b;
+}

@@ -1,0 +1,64 @@
+.nev-bar {
+  top: 0;
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+}
+.nev-bar__logo {
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+}
+.nev-bar__list {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+}
+.nev-bar__func {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+.nev-bar__func:focus-within {
+  border-bottom: 2px solid #3c434b;
+}
+#status-screen .nev-bar__func:first-child {
+  border-bottom: 2px solid #3c434b;
+}
+#menu-screen .nev-bar__func:nth-child(2) {
+  border-bottom: 2px solid #3c434b;
+}
+#media-screen .nev-bar__func:last-child {
+  border-bottom: 2px solid #3c434b;
+}
+
+.nev-bar__list_plus {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  width: 33%;
+  margin: 0 auto;
+}
+.nev-bar__func_plus {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+#foods-screen .nev-bar__func:nth-child(2),
+#drinks-screen .nev-bar__func:nth-child(2) {
+  border-bottom: 2px solid #3c434b;
+}
+#foods-screen .nev-bar__func_plus:first-child {
+  border-bottom: 2px solid #3c434b;
+}
+#drinks-screen .nev-bar__func_plus:nth-child(2) {
+  border-bottom: 2px solid #3c434b;
+}
